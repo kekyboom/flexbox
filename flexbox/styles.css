@@ -1,0 +1,175 @@
+*{
+   margin: 0; 
+   padding: 0;
+}
+
+.main-container {
+    display: flex;
+}
+
+.lista-chat {
+    width: 20vh;
+    min-height: 100vh;
+    min-width: 300px;
+    border: 1px solid #bec1bb ;
+}
+
+/* usuario on */
+
+.usuario-on {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #e8ebe4 ;
+}
+.avatar-usuario-on img {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+.avatar-usuario-on {
+    display: flex;
+    padding: 1rem 0.3rem 1rem 2rem;
+}
+
+.nombre-usuario-on, .status-usuario-on {
+    padding: 0rem 0.5rem;
+    font-size: 1.5vh;
+}
+
+.nombre-usuario-on{
+    font-size: 14px;
+    font-family: roboto, sans-serif;
+}
+.status-usuario-on {
+    color:#bec1bb ;
+    font-size: 10px;
+    font-family: roboto, sans-serif;
+}
+
+.icons {
+    display: flex;
+    color: #828485;
+    justify-content: end;
+    width: 40%;
+    align-items: center;
+}
+
+.fa-message, .fa-bars{
+    padding: 0.8vh;
+
+}
+
+.fa-message {
+    font-size: 2vh;
+}
+
+.fa-bars {
+    font-size: 2.5vh; 
+}
+
+/* boton de Nuevo Chat*/
+.btn-chat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh;
+    border-bottom: 2px solid #e8ebe4 ;
+}
+
+.btn-chat button { 
+    background-color: #a491d2;
+    border: 0px;
+    width: 280px;
+    padding: 1.5vh;
+    color:white ;
+    font-family: roboto, sans-serif;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #cdc3e6;
+}
+
+button:focus {
+    background-color: #bec1bb;
+}
+
+/* usuarios conectados*/
+
+.contactos {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #e8ebe4 ;
+    font-family: "open sans", sans-serif;
+}
+
+.avatar-contacto img {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.avatar-contacto {
+    display: flex;
+    padding: 1rem 0.3rem 1rem 2rem;
+}
+
+.nombre-contacto, .status-contacto {
+    padding: 0rem 0.5rem;
+    font-size: 1.5vh;
+}
+
+.nombre-contacto {
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1b1f21;
+}
+
+.status-contacto {
+    color: #444749;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.contactos:hover {
+    background-color: #e8ebe4;
+}
+
+/*comienza networking*/
+
+.contenido-central {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: #e8ebe4;
+}
+
+.imagen-centro img{
+    width: 25vh;
+    padding: 1.5vh;
+}
+
+.titulo {
+    font-family: roboto, sans-serif;
+    font-size: 45px;
+    color: #1b1f21;
+}
+
+.texto-principal {
+    font-family: "open sans", sans-serif;
+    font-size: 14px;
+    color: #1b1f21;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
